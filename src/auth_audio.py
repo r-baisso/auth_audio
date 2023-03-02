@@ -14,7 +14,7 @@ class AudioAuth():
         y, sr = librosa.load(filename, sr=sr)
 
         f0, voiced_flag, voiced_probs = librosa.pyin(y, fmin=librosa.note_to_hz('C2'), # calc f0
-                                                        fmax=librosa.note_to_hz('C7'))
+                                                        fmax=librosa.note_to_hz('E3'))
 
         if calc_mean:
             if f0.any():
