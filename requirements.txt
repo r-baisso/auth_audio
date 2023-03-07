@@ -5,3 +5,4 @@ matplotlib-inline==0.1.6
 numba==0.56.4
 numpy==1.23.5
 PyAudio==0.2.13
+python_speech_features==0.6
